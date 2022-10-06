@@ -8,23 +8,20 @@
     <form class="input-box" action="proses.php" method="get">
     <center><table class="table-box"border="1">
         <tr>
-            <td colspan="3"><center>Input Produk</center></td>
+            <td colspan="3"><center>Input Produk</center></td
         </tr>
         <tr>
             <td>Nama Barang</td>
             <td>:</td>
-            <td><input type="text" name="nama"></td>
-        </tr>
+            <td><?= $_GET["nama"];  ?></td>
         <tr>
-            <td>Jumlah barang</td>
+            <td>Jumlah Barang</td>
             <td>:</td>
-            <td><input type="text" name="jumlah"></td>
+            <td><?= $_GET["jumlah"];  ?></td>
         </tr>
         <tr>
-            <td colspan="3"><center><button>Submit</button></center></td>
             </form>
         </tr>
     </table></center>
-    </div>
 </body>
 </html>
